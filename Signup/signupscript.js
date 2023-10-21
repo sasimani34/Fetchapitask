@@ -67,6 +67,7 @@
          localStorage.setItem("password", cpasswordVal);
          setSuccess(cpassword)
          alert("Registered Successfully!");
+         window.location.href = "../Login/login.html";
      }
  
      return success;

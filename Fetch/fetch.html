@@ -17,19 +17,43 @@
     referrerpolicy="no-referrer" />
 </head>
 <body>
-    <h1 class="text-center">User Details</h1>
+    <div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white fs-2" href="#">API</a>
+              <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav d-flex me-auto mb-2 mb-lg-0">
+                 
+                  <li class="nav-item">
+                    <a class="nav-link text-white"href="../Login/login.html">
+                    <button class="btn btn-outline-success  my-2 my-sm-0" type="submit">Logout</button></a>
+                  </li>
+    
+        
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+    </header>
+</div>
 
    <div class="container">
+    <h1 class="text-center">User Details</h1>
             <table class="table table-bordered">
-                <thead class="table-dark">
+                <thead class="table-primary">
                     <tr>
-                        <th scope="col">Index</th>
                         <th scope="col">Name</th>
                         <th scope="col">Email</th>
-                        <th scope="col">Body</th>
+                        <th scope="col">Comment</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody id="table_body">
 
                 </tbody>
             </table>

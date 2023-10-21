@@ -7,13 +7,13 @@ fetch('https://jsonplaceholder.typicode.com/comments')
 .then((resdata)=> { 
     let tableValue=""
      resdata.forEach((user) => {
+        console.log(user)
         tableValue += `<tr>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td class="table-danger">${user.name}</td>
+        <td class="table-warning">${user.email}</td>
+        <td class="table-info">${user.body}</td>
         </tr>`
-       // const userdiv = document.createElement("div");
-//         userdiv.classList.add('card')
+      
 //         userdiv.innerHTML = `
 //                         <div id="card-body">
 //                             <h4 class="card-title mb-2">${user.name}</h5>
