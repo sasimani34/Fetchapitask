@@ -1,0 +1,11 @@
+.banner-image {
+    background-image: url('background.avif');
+    background-size: cover;
+  }
+  .nav-item:hover{
+    border-bottom: 2px solid orange;
+  }
+
+  
+
+  

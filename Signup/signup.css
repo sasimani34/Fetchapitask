@@ -1,0 +1,22 @@
+#signupform{
+    
+    background-image: linear-gradient(to left top, #051937, #133660, #1d578d, #1f7abb, #12a0eb);
+  }
+  #form{
+   
+    background-color: antiquewhite;
+    border-radius: 15px;
+  }
+  .sform-group .error,.lform-group .error{
+    color:rgb(242, 18, 18);
+    font-size:16px;
+    margin-top: 5px;
+}
+
+.sform-group.success input,.lform-group.success input{
+    border-color: #0cc477;
+}
+
+.sform-group.error input,.lform-group.error input{
+    border-color:rgb(206, 67, 67);
+} 

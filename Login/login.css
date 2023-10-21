@@ -1,0 +1,13 @@
+#loginform{
+   
+    background-color: #E4E3D3;
+    /* background-image: linear-gradient(to left top, #051937, #133660, #1d578d, #1f7abb, #12a0eb); */
+    border-radius: 15px;
+    
+  }
+
+#logincontainer{
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+
