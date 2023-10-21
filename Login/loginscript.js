@@ -17,7 +17,7 @@
       
       if (usernameVal === getUname && passwordVal === getPassword) {
           alert("Login Successfully!");
-          window.location.href = "Fetch/fetch.html";
+          window.location.href = "../Fetch/fetch.html";
       } else {
           alert("Invalid username or password.");
       }
